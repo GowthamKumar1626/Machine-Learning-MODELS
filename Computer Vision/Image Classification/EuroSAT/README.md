@@ -7,7 +7,7 @@ Use command <i><b>pip install -r requirements.txt</b></i> (Python2) <i><b>pip3 i
 
 <h1>Dataset<h1>
 <p>EuroSAT : Land Use and Land Cover Classification with Sentinel-2</p>
-<img src = "https://raw.githubusercontent.com/phelber/EuroSAT/master/eurosat_overview_small.jpg">
+<!-- <img src = "https://raw.githubusercontent.com/phelber/EuroSAT/master/eurosat_overview_small.jpg"> -->
 You can download your dataset or read original paper from <a href="https://github.com/phelber/eurosat">here</a>
 <p> This dataset consists of 27,000 images with 10 classes</p>
 <ul>
