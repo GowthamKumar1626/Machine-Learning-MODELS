@@ -64,6 +64,7 @@ You can download your dataset or read original paper from <a href="https://githu
 </p>
 <h2>Data Augmentation</h2>
 <img src="https://github.com/GowthamKumar1626/Machine-Learning-MODELS/blob/master/Computer%20Vision/Image%20Classification/EuroSAT/Augmented%20Images/Unknown.png">
+<img src="https://github.com/GowthamKumar1626/Machine-Learning-MODELS/blob/master/Computer%20Vision/Image%20Classification/EuroSAT/Augmented%20Images/Unknown-1.png">
 <p>ImageGenerator is used to create augmentations of image</p>
 <ul>Augmentations apllied:
   <li>rotation_range</li>
