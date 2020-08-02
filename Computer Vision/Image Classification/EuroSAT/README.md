@@ -8,7 +8,7 @@ Use command <i><b>pip install -r requirements.txt</b></i> (Python2) <i><b>pip3 i
 <h1>Dataset</h1>
 <p>EuroSAT : Land Use and Land Cover Classification with Sentinel-2</p>
 <img src = "https://raw.githubusercontent.com/phelber/EuroSAT/master/eurosat_overview_small.jpg">
-You can download your dataset or read original paper from <a href="https://github.com/phelber/eurosat">here</a>
+You can download your dataset or read original paper from <a href="https://github.com/phelber/eurosat">here</a>.
 <p> This dataset consists of 27,000 images with 10 classes</p>
 <ul>
   <li>AnnualCrop</li>
@@ -63,5 +63,14 @@ You can download your dataset or read original paper from <a href="https://githu
    &nbsp&nbsp&nbsp&nbsp|-SeaLake<br>
 </p>
 <h2>Data Augmentation</h2>
-<img src="https://drive.google.com/file/d/1ltULV0jliCYqzUDN1YV-uFoAJMWQoeRq/view">
+<img src="https://github.com/GowthamKumar1626/Machine-Learning-MODELS/blob/master/Computer%20Vision/Image%20Classification/EuroSAT/Augmented%20Images/Unknown.png">
 <p>ImageGenerator is used to create augmentations of image</p>
+<ul>Augmentations apllied:
+  <li>rotation_range</li>
+  <li>width_shift_range</li>
+  <li>height_shift_range</li>
+  <li>horizontal_flip</li>
+  <li>zoom_range</li>
+ </ul>
+ <h2>CNN Network</h2>
+ 
