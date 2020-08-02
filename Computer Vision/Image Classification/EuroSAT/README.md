@@ -77,4 +77,8 @@ You can download your dataset or read original paper from <a href="https://githu
  <img src="https://github.com/GowthamKumar1626/Machine-Learning-MODELS/blob/master/Computer%20Vision/Image%20Classification/EuroSAT/Augmented%20Images/Unknown-2.png">
  <h2>Results</h2>
  For this model accuracy is around 83%. Some of the results are show below. 
- 
+ <img src="https://github.com/GowthamKumar1626/Machine-Learning-MODELS/blob/master/Computer%20Vision/Image%20Classification/EuroSAT/Augmented%20Images/Results-1.png">
+ <img src="https://github.com/GowthamKumar1626/Machine-Learning-MODELS/blob/master/Computer%20Vision/Image%20Classification/EuroSAT/Augmented%20Images/Results-2.png">
+ <img src="https://github.com/GowthamKumar1626/Machine-Learning-MODELS/blob/master/Computer%20Vision/Image%20Classification/EuroSAT/Augmented%20Images/Results-3.png">
+ <img src="https://github.com/GowthamKumar1626/Machine-Learning-MODELS/blob/master/Computer%20Vision/Image%20Classification/EuroSAT/Augmented%20Images/Results-4.png">
+ <img src="https://github.com/GowthamKumar1626/Machine-Learning-MODELS/blob/master/Computer%20Vision/Image%20Classification/EuroSAT/Augmented%20Images/Results-5.png">
