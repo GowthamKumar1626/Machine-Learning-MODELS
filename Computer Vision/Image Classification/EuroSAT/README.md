@@ -8,59 +8,59 @@ Use command <i><b>pip install -r requirements.txt</b></i> (Python2) <i><b>pip3 i
 <h1>Dataset<h1>
 <p>EuroSAT : Land Use and Land Cover Classification with Sentinel-2</p>
 <img src = "https://raw.githubusercontent.com/phelber/EuroSAT/master/eurosat_overview_small.jpg">
-  <p> This dataset consists of 27,000 images with 10 classes</p>
-  <ul>
-    <li>AnnualCrop</li>
-    <li>Forest</li>
-    <li>HerbaceousVegetation</li>
-    <li>Highway</li>
-    <li>Industrial</li>
-    <li>Pasture</li>
-    <li>PermanentCrop</li>
-    <li>Residential</li>
-    <li>River</li>
-    <li>SeaLake</li>
-  </ul>
-  <h4>Hierarchy of Directories</h4>
-  <p>After extracting zip file 2750 directory is the main directory, 10 classes are seperated into sub directories under 2750.<br>
-  <p>/2750<br>
-     &nbsp&nbsp|-AnnualCrop<br>
-     &nbsp&nbsp|-Forest<br>
-     &nbsp&nbsp|-HerbaceousVegetation<br>
-     &nbsp&nbsp|-Highway<br>
-     &nbsp&nbsp|-Industrial<br>
-     &nbsp&nbsp|-Pasture<br>
-     &nbsp&nbsp|-PermanentCrop<br>
-     &nbsp&nbsp|-Residential<br>
-     &nbsp&nbsp|-River<br>
-     &nbsp&nbsp|-SeaLake<br>
-  </p>
-  <h2>Train and Val Split</h2>
-  <p> Under 2750 directory a new 2 directories are created train and val. Using shutil (for moveing files from one folder to another) and glob (list of path of images) 80% of images w.r.t to each class are placed in train and remaining in val</p>
-  <p><b>/2750</b><br>
-     &nbsp&nbsp|-<b>/train</b><br>
-     &nbsp&nbsp&nbsp&nbsp|-AnnualCrop<br>
-     &nbsp&nbsp&nbsp&nbsp|-Forest<br>
-     &nbsp&nbsp&nbsp&nbsp|-HerbaceousVegetation<br>
-     &nbsp&nbsp&nbsp&nbsp|-Highway<br>
-     &nbsp&nbsp&nbsp&nbsp|-Industrial<br>
-     &nbsp&nbsp&nbsp&nbsp|-Pasture<br>
-     &nbsp&nbsp&nbsp&nbsp|-PermanentCrop<br>
-     &nbsp&nbsp&nbsp&nbsp|-Residential<br>
-     &nbsp&nbsp&nbsp&nbsp|-River<br>
-     &nbsp&nbsp&nbsp&nbsp|-SeaLake<br>
-    &nbsp&nbsp|-<b>/val</b><br>
-     &nbsp&nbsp&nbsp&nbsp|-AnnualCrop<br>
-     &nbsp&nbsp&nbsp&nbsp|-Forest<br>
-     &nbsp&nbsp&nbsp&nbsp|-HerbaceousVegetation<br>
-     &nbsp&nbsp&nbsp&nbsp|-Highway<br>
-     &nbsp&nbsp&nbsp&nbsp|-Industrial<br>
-     &nbsp&nbsp&nbsp&nbsp|-Pasture<br>
-     &nbsp&nbsp&nbsp&nbsp|-PermanentCrop<br>
-     &nbsp&nbsp&nbsp&nbsp|-Residential<br>
-     &nbsp&nbsp&nbsp&nbsp|-River<br>
-     &nbsp&nbsp&nbsp&nbsp|-SeaLake<br>
-  </p>
-  <h2>Data Augmentation</h2>
-  <img src="https://drive.google.com/file/d/1ltULV0jliCYqzUDN1YV-uFoAJMWQoeRq/view">
-  <p>ImageGenerator is used to create augmentations of image</p>
+<p> This dataset consists of 27,000 images with 10 classes</p>
+<ul>
+  <li>AnnualCrop</li>
+  <li>Forest</li>
+  <li>HerbaceousVegetation</li>
+  <li>Highway</li>
+  <li>Industrial</li>
+  <li>Pasture</li>
+  <li>PermanentCrop</li>
+  <li>Residential</li>
+  <li>River</li>
+  <li>SeaLake</li>
+</ul>
+<h4>Hierarchy of Directories</h4>
+<p>After extracting zip file 2750 directory is the main directory, 10 classes are seperated into sub directories under 2750.<br>
+<p>/2750<br>
+   &nbsp&nbsp|-AnnualCrop<br>
+   &nbsp&nbsp|-Forest<br>
+   &nbsp&nbsp|-HerbaceousVegetation<br>
+   &nbsp&nbsp|-Highway<br>
+   &nbsp&nbsp|-Industrial<br>
+   &nbsp&nbsp|-Pasture<br>
+   &nbsp&nbsp|-PermanentCrop<br>
+   &nbsp&nbsp|-Residential<br>
+   &nbsp&nbsp|-River<br>
+   &nbsp&nbsp|-SeaLake<br>
+</p>
+<h2>Train and Val Split</h2>
+<p> Under 2750 directory a new 2 directories are created train and val. Using shutil (for moveing files from one folder to another) and glob (list of path of images) 80% of images w.r.t to each class are placed in train and remaining in val</p>
+<p><b>/2750</b><br>
+   &nbsp&nbsp|-<b>/train</b><br>
+   &nbsp&nbsp&nbsp&nbsp|-AnnualCrop<br>
+   &nbsp&nbsp&nbsp&nbsp|-Forest<br>
+   &nbsp&nbsp&nbsp&nbsp|-HerbaceousVegetation<br>
+   &nbsp&nbsp&nbsp&nbsp|-Highway<br>
+   &nbsp&nbsp&nbsp&nbsp|-Industrial<br>
+   &nbsp&nbsp&nbsp&nbsp|-Pasture<br>
+   &nbsp&nbsp&nbsp&nbsp|-PermanentCrop<br>
+   &nbsp&nbsp&nbsp&nbsp|-Residential<br>
+   &nbsp&nbsp&nbsp&nbsp|-River<br>
+   &nbsp&nbsp&nbsp&nbsp|-SeaLake<br>
+  &nbsp&nbsp|-<b>/val</b><br>
+   &nbsp&nbsp&nbsp&nbsp|-AnnualCrop<br>
+   &nbsp&nbsp&nbsp&nbsp|-Forest<br>
+   &nbsp&nbsp&nbsp&nbsp|-HerbaceousVegetation<br>
+   &nbsp&nbsp&nbsp&nbsp|-Highway<br>
+   &nbsp&nbsp&nbsp&nbsp|-Industrial<br>
+   &nbsp&nbsp&nbsp&nbsp|-Pasture<br>
+   &nbsp&nbsp&nbsp&nbsp|-PermanentCrop<br>
+   &nbsp&nbsp&nbsp&nbsp|-Residential<br>
+   &nbsp&nbsp&nbsp&nbsp|-River<br>
+   &nbsp&nbsp&nbsp&nbsp|-SeaLake<br>
+</p>
+<h2>Data Augmentation</h2>
+<img src="https://drive.google.com/file/d/1ltULV0jliCYqzUDN1YV-uFoAJMWQoeRq/view">
+<p>ImageGenerator is used to create augmentations of image</p>
