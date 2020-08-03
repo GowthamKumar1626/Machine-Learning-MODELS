@@ -76,7 +76,7 @@ You can download your dataset or read original paper from <a href="https://githu
  <h2>CNN Network</h2>
  <img src="https://github.com/GowthamKumar1626/Machine-Learning-MODELS/blob/master/Computer%20Vision/Image%20Classification/EuroSAT%20ResNET/models/Model-Image.png">
  <h2>Results</h2>
- For this model accuracy is around 83%. Some of the results are show below. 
+ For this model accuracy is around <b>95%</b>. Some of the results are show below. 
  <img src="https://github.com/GowthamKumar1626/Machine-Learning-MODELS/blob/master/Computer%20Vision/Image%20Classification/EuroSAT%20ResNET/Annotations%20and%20Results/Result-1.png">
  <img src="https://github.com/GowthamKumar1626/Machine-Learning-MODELS/blob/master/Computer%20Vision/Image%20Classification/EuroSAT%20ResNET/Annotations%20and%20Results/Result-2.png">
  <img src="https://github.com/GowthamKumar1626/Machine-Learning-MODELS/blob/master/Computer%20Vision/Image%20Classification/EuroSAT%20ResNET/Annotations%20and%20Results/Result-3.png">
