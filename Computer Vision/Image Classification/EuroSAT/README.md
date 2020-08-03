@@ -1,3 +1,6 @@
+<h1>Basic CNN Architecture - 83% Accuracy😇</h1>
+<p>This architecture consists of 3 sets of CONV layer and Pool layer. DropOut is added for dense layer (A regularization techinique to avoid overfitting.</p>
+
 <h1>Requirements</h1>
 Model is built using tensorflow and keras. Tensorflow >= 2.0.0 version is required to run the model. In order to install tensorflow in your pc,
 follow the instructions mentioned in <a href="https://www.tensorflow.org/install">Tensorflow</a> Official page.
