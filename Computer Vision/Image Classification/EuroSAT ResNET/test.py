@@ -24,7 +24,7 @@ _LABELS = [
 
 def predict_results(_LABELS,path):
     #Loading image using keras.preprocessing.image 
-    img = image.load_img(path, target_size = (150,150))
+    img = image.load_img(path, target_size = (128,128))
     test_image = image.img_to_array(img)
     
     #Extracting actual class from path
