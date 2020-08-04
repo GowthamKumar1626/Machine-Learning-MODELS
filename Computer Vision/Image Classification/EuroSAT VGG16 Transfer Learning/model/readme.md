@@ -1,1 +1,0 @@
-Please download the repository and run train.py file, then your model will save in this location. If you need to download .h5 pretrained model please click on the link https://drive.google.com/file/d/1jGrZxdO-_JwwiVVmApUiI_wMu0ZMleO4/view.
