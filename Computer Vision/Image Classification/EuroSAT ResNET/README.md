@@ -1,4 +1,4 @@
-<h1>ResNET Model - 95% Accuracy!🔥</h1>
+<h1>ResNET Model - 92% Accuracy!🔥</h1>
 <p>ResNet took the deep learning world by storm in 2015, as the first neural network that could train hundreds or thousands of layers without succumbing to the “vanishing gradient” problem. Keras makes it easy to build ResNet models: you can run built-in ResNet variants pre-trained on ImageNet with just one line of code, or build your own custom ResNet implementation. You can speed up the process with MissingLink’s deep learning platform, which automates training, distributing, and monitoring ResNet projects in Keras.</p>
 
 <h1>Requirements</h1>
