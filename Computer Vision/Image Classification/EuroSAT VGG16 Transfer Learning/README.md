@@ -1,5 +1,5 @@
 <h1>VGG16 Model (Transfer Learning) - 91% Accuracy!🥳</h1>
-Download pretrained VGG16 network .hdf5 file <a href=" https://drive.google.com/file/d/1jGrZxdO-_JwwiVVmApUiI_wMu0ZMleO4/view">here</a> 
+Download pretrained VGG16 network .hdf5 file https://drive.google.com/file/d/1jGrZxdO-_JwwiVVmApUiI_wMu0ZMleO4/view"
 <h1>Requirements</h1>
 Model is built using tensorflow and keras. Tensorflow >= 2.0.0 version is required to run the model. In order to install tensorflow in your pc,
 follow the instructions mentioned in <a href="https://www.tensorflow.org/install">Tensorflow</a> Official page.
