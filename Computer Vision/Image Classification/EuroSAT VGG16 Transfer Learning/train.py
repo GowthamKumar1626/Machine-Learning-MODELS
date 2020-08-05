@@ -56,7 +56,7 @@ def split_dataset(labels, base_dir, train_test_val_split = False, train_split = 
     print("{}: {} Images".format(cl, len(images)))
     num_train = int(round(len(images)*train_split))
     if train_test_val_split:
-      num_val = num_train + (len(images) - num_train)/2
+      num_val = int(num_train + (len(images) - num_train)/2)
       train, val, test = images[:num_train], images[num_train:num_val], images[num_val:]
     else:
       train, val = images[:num_train], images[num_train:]
