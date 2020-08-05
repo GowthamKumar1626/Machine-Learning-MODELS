@@ -50,7 +50,8 @@ Use predict_results only if image is from dataset beacuse actual_label in
 predict_results function is ectractd from path. If you need to test for some other
 image not from dataset, use predict_own function.
 '''
-predict_results(_LABELS, np.random.choice(val_img_files))
+test_img_files = glob.glob(test_dir+"/*/*.jpg")
+predict_results(_LABELS, np.random.choice(test_img_files))
 
 
 predict_own(_LABELS, "test_images/Screenshot 2020-08-04 at 10.42.50 PM", "Residential")
