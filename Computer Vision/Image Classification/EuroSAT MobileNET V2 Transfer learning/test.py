@@ -28,7 +28,7 @@ _LABELS = [
     'Pasture', 'PermanentCrop', 'Residential', 'River', 'SeaLake'
 ]
 
-model = tf.keras.models.load_model("/content/drive/My Drive/mobilenet_v2_eurosat_128.hdf5")
+model = tf.keras.models.load_model("models/mobilenet_v2_eurosat_128.hdf5")
 
 model.summary()
 
