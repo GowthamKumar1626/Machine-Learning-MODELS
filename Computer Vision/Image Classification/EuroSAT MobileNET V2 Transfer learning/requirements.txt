@@ -1,0 +1,7 @@
+graphviz==0.14
+Keras==2.4.3
+numpy==1.18.5
+opencv-python==4.2.0.34
+pathlib==1.0.1
+tensorflow>=2.0.0
+Pillo==7.2.0
