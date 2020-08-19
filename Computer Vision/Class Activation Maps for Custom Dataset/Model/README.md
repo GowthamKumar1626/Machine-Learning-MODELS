@@ -1,0 +1,2 @@
+Model trained using train.py is saved in this directory. If you need to skip training of image dataset, 
+You can Download the pretrained model from the link and save the model under this directory and take care of path used in load_model model in classactivationmap.py , <a href="https://drive.google.com/file/d/1-AIogcBkLu6sZMepPg_WK60JnDDDtao6/view?usp=sharing"> Click here </a>
