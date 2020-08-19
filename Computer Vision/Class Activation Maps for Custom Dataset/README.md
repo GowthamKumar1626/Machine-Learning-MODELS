@@ -1,11 +1,10 @@
 <h1>Class Activation Maps for Custom Dataset</h1>
 Class activation maps helps us to find the regions which model is used to differentiate from one class or label to other label.
 <h2>Dataset</h2>
-<b>EuroSAT</b> Dataset, which contains satellite images of 27,000 images with 10 labels 'AnnualCrop', 'Forest', 'HerbaceousVegetation', 'Highway', 'Industrial',
-'Pasture', 'PermanentCrop', 'Residential', 'River', 'SeaLake'.
+<b>EuroSAT</b> Dataset, which contains satellite images of 27,000 images with 10 labels AnnualCrop, Forest, HerbaceousVegetation, Highway, Industrial, Pasture, PermanentCrop, Residential, River, SeaLake.
 
 <h2>Model</h2>
-ResNet50 is used with imagenet weights (includes prediction layer. So, predicted labels are from imagenet). Here training is not required because i included predicted layer. If you need to train your own dataset to find activation features <a href="#">Click Here</a>
+ResNet50 is used with imagenet weights (we dosen't include top layer means we avoid prediction layer of resnet and we use our own prediction layer as in transfer learning). If we use custom dataset we need to train our model (use train.py). Download pretrained model to avoid training dataset <a href="https://drive.google.com/file/d/1-AIogcBkLu6sZMepPg_WK60JnDDDtao6/view?usp=sharing">Click Here</a>
 
 <h2>Results</h2>
 Here in result we find various regions differentiated with various colors. Red color region features are the features which helps the model to differentiate from each labels.
