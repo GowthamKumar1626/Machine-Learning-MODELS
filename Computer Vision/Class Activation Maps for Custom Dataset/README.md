@@ -4,7 +4,7 @@ Class activation maps helps us to find the regions which model is used to differ
 <b>EuroSAT</b> Dataset, which contains satellite images of 27,000 images with 10 labels AnnualCrop, Forest, HerbaceousVegetation, Highway, Industrial, Pasture, PermanentCrop, Residential, River, SeaLake.
 
 <br><br>
-<b>Note:</b> Make a model for Image Classification, this model will extract from features from images to identify labels and predicts labels. These features are stored in last activation layer. Using this model we will prepare another model with inputs of previous model and outputs as last activation layer. Using this model we will predict fmaps. Using this fmap anf final prediction layer weights we will construct a Class Activation Map.
+<b>Note:</b> Make a model for Image Classification, this model will extract features from images to identify labels. These features are stored in last activation layer. Using this model we will prepare another model with inputs of previous model and outputs as last activation layer. Using this model we will predict fmaps. Using this fmap anf final prediction layer weights we will construct a Class Activation Map.
 
 <h2>Model</h2>
 ResNet50 is used with imagenet weights (we dosen't include top layer means we avoid prediction layer of resnet and we use our own prediction layer as in transfer learning). If we use custom dataset we need to train our model (use train.py). Download pretrained model to avoid training dataset <a href="https://drive.google.com/file/d/1-AIogcBkLu6sZMepPg_WK60JnDDDtao6/view?usp=sharing">Click Here</a>
