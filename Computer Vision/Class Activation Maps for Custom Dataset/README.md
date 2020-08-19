@@ -3,6 +3,7 @@ Class activation maps helps us to find the regions which model is used to differ
 <h2>Dataset</h2>
 <b>EuroSAT</b> Dataset, which contains satellite images of 27,000 images with 10 labels AnnualCrop, Forest, HerbaceousVegetation, Highway, Industrial, Pasture, PermanentCrop, Residential, River, SeaLake.
 
+<br><br>
 <b>Note:</b> Make a model for Image Classification, this model will extract from features from images to identify labels and predicts labels. These features are stored in last activation layer. Using this model we will prepare another model with inputs of previous model and outputs as last activation layer. Using this model we will predict fmaps. Using this fmap anf final prediction layer weights we will construct a Class Activation Map.
 
 <h2>Model</h2>
