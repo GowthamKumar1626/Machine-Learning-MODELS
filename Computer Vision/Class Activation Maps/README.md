@@ -1,7 +1,7 @@
 <h1>Class Activation Maps</h1>
 Class activation maps helps us to find the regions which model is used to differentiate from one class or label to other label.
 <h2>Dataset</h2>
-I used some CAT IMAGES and formulated into a DATASET. I took these cat images from <em>OXFORD IIIT PET DATASET and MICROSOFT CAT AND DOG DATASET</em>.
+I collected CAT IMAGES from 2 different datasets and formulated into a DATASET under single folder. I these images are collected from <em>OXFORD IIIT PET DATASET and MICROSOFT CAT AND DOG DATASET</em>.
 
 <h2>Model</h2>
 ResNet50 is used with imagenet weights (includes prediction layer. So, predicted labels are from imagenet). Here training is not required because i included predicted layer. If you need to train your own dataset to find activation features <a href="#">Click Here</a>
