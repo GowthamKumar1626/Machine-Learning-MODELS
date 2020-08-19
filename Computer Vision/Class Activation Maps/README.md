@@ -4,7 +4,7 @@ Class activation maps helps us to find the regions which model is used to differ
 I collected CAT IMAGES from 2 different datasets and formulated into a DATASET under single folder. I these images are collected from <em>OXFORD IIIT PET DATASET and MICROSOFT CAT AND DOG DATASET</em>.
 
 <br><br>
-<b>Note:</b> Imagenet dataset consists of , this model will extract from features from images to identify labels and predicts labels. These features are stored in last activation layer. Using this model we will prepare another model with inputs of previous model and outputs as last activation layer. Using this model we will predict fmaps. Using this fmap anf final prediction layer weights we will construct a Class Activation Map.
+<b>Note:</b> Imagenet dataset consists of cat images so no need to incude labels explicitly and we also including prediction layer for this model, this model will extract features from images to identify labels. These features are stored in last activation layer. Using this model we will prepare another model with inputs of previous model and outputs as last activation layer. Using this model we will predict fmaps. Using this fmap anf final prediction layer weights we will construct a Class Activation Map.
 
 <h2>Model</h2>
 ResNet50 is used with imagenet weights (includes prediction layer. So, predicted labels are from imagenet). Here training is not required because i included predicted layer. If you need to train your own dataset to find activation features <a href="#">Click Here</a>
