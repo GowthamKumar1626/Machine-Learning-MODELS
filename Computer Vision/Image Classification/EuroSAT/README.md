@@ -41,29 +41,7 @@ You can download your dataset or read original paper from <a href="https://githu
 </p>
 <h2>Train and Val Split</h2>
 <p> Under 2750 directory a new 2 directories are created train and val. Using shutil (for moveing files from one folder to another) and glob (list of path of images) 80% of images w.r.t to each class are placed in train and remaining in val</p>
-<p><b>/2750</b><br>
-   &nbsp&nbsp|-<b>/train</b><br>
-   &nbsp&nbsp&nbsp&nbsp|-AnnualCrop<br>
-   &nbsp&nbsp&nbsp&nbsp|-Forest<br>
-   &nbsp&nbsp&nbsp&nbsp|-HerbaceousVegetation<br>
-   &nbsp&nbsp&nbsp&nbsp|-Highway<br>
-   &nbsp&nbsp&nbsp&nbsp|-Industrial<br>
-   &nbsp&nbsp&nbsp&nbsp|-Pasture<br>
-   &nbsp&nbsp&nbsp&nbsp|-PermanentCrop<br>
-   &nbsp&nbsp&nbsp&nbsp|-Residential<br>
-   &nbsp&nbsp&nbsp&nbsp|-River<br>
-   &nbsp&nbsp&nbsp&nbsp|-SeaLake<br>
-  &nbsp&nbsp|-<b>/val</b><br>
-   &nbsp&nbsp&nbsp&nbsp|-AnnualCrop<br>
-   &nbsp&nbsp&nbsp&nbsp|-Forest<br>
-   &nbsp&nbsp&nbsp&nbsp|-HerbaceousVegetation<br>
-   &nbsp&nbsp&nbsp&nbsp|-Highway<br>
-   &nbsp&nbsp&nbsp&nbsp|-Industrial<br>
-   &nbsp&nbsp&nbsp&nbsp|-Pasture<br>
-   &nbsp&nbsp&nbsp&nbsp|-PermanentCrop<br>
-   &nbsp&nbsp&nbsp&nbsp|-Residential<br>
-   &nbsp&nbsp&nbsp&nbsp|-River<br>
-   &nbsp&nbsp&nbsp&nbsp|-SeaLake<br>
+<p><img src="https://github.com/GowthamKumar1626/Machine-Learning-MODELS/blob/master/Computer%20Vision/Class%20Activation%20Maps%20for%20Custom%20Dataset/Model/Untitled.png">
 </p>
 <h2>Data Augmentation</h2>
 <img src="https://github.com/GowthamKumar1626/Machine-Learning-MODELS/blob/master/Computer%20Vision/Image%20Classification/EuroSAT/Augmented%20Images/Unknown.png">
