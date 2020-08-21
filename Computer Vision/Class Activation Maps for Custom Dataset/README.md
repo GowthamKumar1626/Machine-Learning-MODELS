@@ -7,7 +7,9 @@ Class activation maps helps us to find the regions which model is used to differ
 <b>Note:</b> Make a model for Image Classification, this model will extract features from images to identify labels. These features are stored in last activation layer. Using this model we will prepare another model with inputs of previous model and outputs as last activation layer. Using this model we will predict fmaps. Using this fmap anf final prediction layer weights we will construct a Class Activation Map.
 
 <h2>Hierarchy of Dataset</h2>
-After extracting dataset we will get base folder as <b>2750</b>. Under this folder there will be 10 folder representing each label. We need to model the dataset into train, val, test folders as shown below.
+After extracting dataset we will get base folder as <b>2750</b>. Under this folder there will be 10 folder representing each label.
+<img src="https://github.com/GowthamKumar1626/Machine-Learning-MODELS/blob/master/Computer%20Vision/Class%20Activation%20Maps%20for%20Custom%20Dataset/Model/Untitled-2.png">
+We need to reshape the dataset into train, val, test folders as shown below.
 <img src="https://github.com/GowthamKumar1626/Machine-Learning-MODELS/blob/master/Computer%20Vision/Class%20Activation%20Maps%20for%20Custom%20Dataset/Model/Untitled.png">
 
 <h2>Model</h2>
