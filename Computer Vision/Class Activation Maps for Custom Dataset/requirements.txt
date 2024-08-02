@@ -1,5 +1,5 @@
 graphviz==0.14
-Keras==2.4.3
+Keras==2.13.1
 numpy==1.18.5
 opencv-python==4.2.0.34
 pathlib==1.0.1
